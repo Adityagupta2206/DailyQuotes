@@ -1,0 +1,93 @@
+
+body{
+    background-color: #4D869C;
+}
+.quote-card {
+    background-color: #CDE8E5;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 400px;
+    margin: 0 auto 20px;
+    margin-top: 200px;
+}
+
+.quote {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333; 
+}
+
+.author {
+    font-size: 18px;
+    color: #803D3B;
+}
+
+.line {
+    display: flex;
+    justify-content: center;
+}
+
+.bottom {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    margin-left: 20px;
+}
+
+.search {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search input[type="text"] {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+    width: 250px;
+}
+
+.search button {
+    padding: 8px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.search button:hover {
+    background-color: #45a049;
+}
+
+.quote-card {
+   padding: 54px;
+}
+.quote-card button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #00215E; 
+    color: #fff; 
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: background-color 0.9s;
+}
+
+.quote-card button:hover {
+    background-color: #0056b3;
+}
+h1 {
+    font-size: 28px;
+    color: #333;
+    text-align: center;
+    margin-top: 0px;
+}
